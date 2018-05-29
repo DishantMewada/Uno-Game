@@ -1,0 +1,33 @@
+CLASS SPECIFICATION
+
+
+Class Title - Card
+
+
+Purpose - Card class is the blueprint of a card in a deck of 52 cards. This class is served as the userdefined datatype having two values- suit and value to the CardDeck class. CardDeck class contains the deck or multiple of card class object in a deck variable of CardDeck Class    
+
+
+Private Variables:
+
+Two string variables shape,value 
+shape defines the suit type of a card 
+value contains the rank type of a card anything from Ace to King
+
+
+Constructor:
+One is default constructor which is used to create an empty card or blank card.
+second is parameterised constructor which is used to create a card with a specific shape and value 
+
+
+Public Variables:
+
+Two constant vector variable of string.
+one const vector contains the 4 type of shape in cards i.e. 
+"Club","Spade","Heart","Diamond"
+And other const vector contains the 13 type of values in cards i.e. "Ace","King","Queen","Jack","Ten","Nine","Eight","Seven","Six","Five","Four","Three","Two" 
+
+Public Methods:
+
+Two public getter method:
+one is getShape() which is use to get the value of 'shape' private variable of Card Class
+And other one is getValue() which is use to get the value of 'value' private variable of Card Class  
